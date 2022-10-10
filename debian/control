@@ -1,0 +1,28 @@
+Source: libcss-tiny-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>,
+           Ansgar Burchardt <ansgar@debian.org>,
+           Angel Abad <angel@debian.org>
+Standards-Version: 3.9.7
+Homepage: https://metacpan.org/release/CSS-Tiny
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libcss-tiny-perl.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libcss-tiny-perl.git
+Testsuite: autopkgtest-pkg-perl
+
+Package: libcss-tiny-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: Perl module to read/write .css files with as little code as possible
+ CSS::Tiny is a perl class to read and write .css stylesheets with as
+ little code as possible, reducing load time and memory overhead.
+ CSS.pm requires about 2.6M of memory to load, which is a large amount of
+ overhead if you only want to do trivial things.
+ .
+ This module is primarily for reading and writing simple files, and anything
+ you write shouldn't need to have documentation/comments. If you need something
+ with more power, move up to CSS.pm.

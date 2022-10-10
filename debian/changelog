@@ -1,0 +1,128 @@
+libcss-tiny-perl (1.20-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Angel Abad ]
+  * Email change: Angel Abad -> angel@debian.org
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Lucas Kanashiro ]
+  * Add debian/upstream/metadata
+  * Import upstream version 1.20
+  * d/u/metadata: update Repository
+  * Bump debhelper compatibility level to 9
+  * Declare compliance with Debian policy 3.9.7
+  * debian/control: wrap and sort
+  * Mark package as autopkgtest-able
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Sun, 13 Mar 2016 23:36:44 -0300
+
+libcss-tiny-perl (1.19-1) unstable; urgency=low
+
+  * New upstream release
+  * Add myself to Uploaders
+  * debian/copyright: Update license information
+  * Bump Standards-Version to 3.9.1 (no changes)
+
+ -- Angel Abad <angelabad@gmail.com>  Wed, 22 Sep 2010 01:43:46 +0200
+
+libcss-tiny-perl (1.17-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+  * Remove Florian Ragwitz from Uploaders (closes: #523274).
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * New upstream release.
+  * Make build-dep on perl unversioned.
+  * Convert debian/copyright to proposed machine-readable format.
+  * Use source format 3.0 (quilt).
+  * debian/rules: Use standard tiny rules.
+  * debian/control: Small changes to package description.
+  * Bump Standards-Version to 3.9.0.
+  * Add myself to Uploaders.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Mon, 05 Jul 2010 10:52:04 +0900
+
+libcss-tiny-perl (1.15-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * Take over for the Debian Perl Group with maintainer's permission
+    (http://lists.debian.org/debian-perl/2008/06/msg00039.html)
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Changed:
+    Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Florian Ragwitz
+    <rafl@debian.org>); Florian Ragwitz <rafl@debian.org> moved to
+    Uploaders.
+  * debian/watch: use dist-based URL.
+
+  [ Damyan Ivanov ]
+  * New upstream release
+  * update upstream source location, years of copyright and copyright
+    statement in debian/copyright
+  * add myself to Uploaders
+  * debian/control: drop unnecessary (build-)dependency on
+    libextutils-autoinstall-perl, libsort-versions-perl and perl-modules
+  * bump standards-version to 3.8.0 (no changes)
+  * replace debian/rules with a 3-liner thanks to debhelper 7
+
+ -- Damyan Ivanov <dmn@debian.org>  Sun, 15 Jun 2008 21:50:12 +0300
+
+libcss-tiny-perl (1.11-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix FTBFS with Perl 5.10.  Closes: #467737
+
+ -- Mark Hymers <mhy@debian.org>  Sat, 05 Apr 2008 21:08:54 +0100
+
+libcss-tiny-perl (1.11-1) unstable; urgency=low
+
+  * New upstream release (Closes: #329505).
+  * New Maintainer with acknowledgement from the former one.
+  * Acknowledged NMU by Gunnar Wolf.
+  * Bumped up Standards-Version to 3.6.2 (no changes).
+  * Cleaned up debian/rules.
+
+ -- Florian Ragwitz <rafl@debian.org>  Thu,  9 Feb 2006 23:19:39 +0100
+
+libcss-tiny-perl (1.09-1.1) unstable; urgency=low
+
+  * Non-Maintainer Upload by Gunnar Wolf <gwolf@debian.org>
+  * Added missing dependencies on perl-modules, libsort-versions-perl,
+    libextutils-autoinstall-perl (Closes: #305776)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 22 Apr 2005 18:51:24 -0500
+
+libcss-tiny-perl (1.09-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Chip Salzenberg <chip@debian.org>  Thu,  7 Apr 2005 22:26:20 -0400
+
